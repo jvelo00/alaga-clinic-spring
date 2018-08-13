@@ -3,9 +3,9 @@ package com.jvelo00.alagaclinicspring.model;
 import java.time.LocalDate;
 
 public class Pet {
-    private PetType petType;
-    private Owner owner;
-    private LocalDate birthDate;
+    PetType petType;
+    Owner owner;
+    LocalDate birthDate;
 
     public PetType getPetType() {
         return petType;
